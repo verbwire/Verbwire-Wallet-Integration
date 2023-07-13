@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  transpilePackages: ['verbwire-stream-react'],
+};
+ 
+module.exports = nextConfig;
 
-module.exports = nextConfig
